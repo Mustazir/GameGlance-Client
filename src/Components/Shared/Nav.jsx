@@ -63,7 +63,7 @@ const Nav = () => {
                         {navlink}
                     </ul>
                 </div>
-                <a className=" text-xl font-title">Play Log</a>
+                <a className=" text-xl font-title">GameGlance</a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1 ">
