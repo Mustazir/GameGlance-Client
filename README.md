@@ -1,5 +1,5 @@
 # **PlayLog**  
-**[Live Website URL](https://playlog-81400.web.app)**  
+**[Live Website URL](https://gameglance-18dab.firebaseapp.com/)**  
 
 ---
 
