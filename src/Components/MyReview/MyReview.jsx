@@ -90,7 +90,7 @@ const MyReview = () => {
 
 
                         <div className="w-full flex-1  space-y-4 ">
-                            {/* <h1 className="text-3xl font-bold">{data.gameTitle}</h1>
+                            <h1 className="text-3xl font-bold">{data.gameTitle}</h1>
                             <p className="text-gray-400 text-sm">
                                 Reviewed by: {data.userName} ({data.userEmail})
                             </p>
@@ -119,7 +119,7 @@ const MyReview = () => {
                     </div>)
                 }
             </div>
-        </div> */}
+        </div>
     );
 };
 
