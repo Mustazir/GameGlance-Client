@@ -1,38 +1,84 @@
-# **GameGlance**  
-**[Live Website URL](https://gameglance-18dab.firebaseapp.com/)**  
+# GameGlance 🎮  
+[Live Website](https://gameglance-18dab.firebaseapp.com/) | [Client-Side Repository](https://github.com/Mustazir/GameGlance) | [Server-Side Repository](https://github.com/Mustazir/GameGlance-Server.git)  
+
+## Introduction  
+**GameGlance** is a user-friendly game review platform where users can explore, share, and manage game reviews. Designed with simplicity and functionality in mind, it offers a "chill" experience for gaming enthusiasts to interact and share their opinions.  
 
 ---
 
-## **About**  
-**GameGlance** is the ultimate platform for gamers to share, explore, and review games. Whether you’re looking for trending reviews or a personalized watchlist, GameGlance offers everything in a stylish black-and-red theme.
+## Features  
+- **Dynamic Game Reviews**: View, add, and manage game reviews with features like rating, genres, and descriptions.  
+- **Protected Routes**: Secure access to private routes such as "My Reviews" and "Add Review" for logged-in users.  
+- **User Authentication**: Log in or register using email-password authentication with additional Google login support.  
+- **Game Watchlist**: Save your favorite reviews to a personal watchlist for quick access.  
+- **Sort and Filter Reviews**: Sort reviews by rating and year, or filter them by genres for a customized experience.  
+- **Unique Design**: A modern, responsive UI with a clean design and dark/light theme toggle.  
 
 ---
 
-## **Key Features**  
+## Pages Overview  
+### **Home Page**  
+- A visually appealing **banner slider**.  
+- **Highest Rated Games** section displaying top games.  
+- Two additional meaningful sections.  
 
-1. **Interactive Sorting & Filtering**  
-   - Sort reviews by rating or year to discover the most relevant games.  
-   - Filter reviews based on game genres for a curated experience.  
+### **Reviews Management**  
+- **All Reviews**: Explore reviews with sorting and filtering options.  
+- **My Reviews**: View, update, or delete your reviews.  
+- **Add Review**: Submit new reviews with a detailed form (protected route).  
+- **Update Review**: Edit previously submitted reviews.  
 
-2. **User Account Integration**  
-   - Logged-in users can add, update, or delete reviews and maintain a custom watchlist.  
+### **Game Watchlist**  
+- Manage a personal list of games saved to your watchlist.  
 
-3. **Dynamic Dark/Light Theme**  
-   - Toggle between dark and light modes for a tailored browsing experience.  
+### **Authentication**  
+- Login and Register pages with email-password and Google login options.  
 
-4. **Responsive & Accessible Design**  
-   - Optimized for all devices, providing a seamless experience on desktop and mobile.  
+### **Other Pages**  
+- **404 Page**: Friendly design for unavailable routes.  
+- **Loading Spinner**: Shown during data loading.  
 
-5. **Enhanced User Engagement**  
-   - Visual cards and a dynamic footer with social media integration make the experience engaging.  
+---
+
+## Technologies Used  
+### **Client-Side**  
+- **React.js**: Framework for building a responsive and interactive UI.  
+- **Firebase**: Hosting and authentication.  
+- **CSS/Frameworks**: For styling and responsiveness.  
+
+### **Server-Side**  
+- **Node.js & Express.js**: Backend for handling API requests.  
+- **MongoDB**: Database to store reviews and user information.  
+
+### **Additional Packages**  
+- **Lottie React**: For animations.  
+- **React-simple-typewriter**: Adds dynamic text animations.  
+- **React Awesome Reveal**: Smooth animations for elements.  
 
 ---
 
-## **Technologies Used**  
+## Environment Variables  
+To keep your application secure:  
+- **Firebase Config Keys**  
+- **MongoDB Credentials**  
 
-- **Frontend**: React.js, Tailwind CSS  
-- **Backend**: Node.js, Express.js  
-- **Database**: MongoDB  
-- **Authentication**: Firebase  
+These are stored securely in `.env` files and not exposed in the repositories.  
 
 ---
+
+## Deployment  
+- **Client**: Hosted on Firebase.  
+- **Server**: Hosted on Vercel.  
+
+---
+
+## Getting Started  
+1. Clone the repositories:  
+   ```bash  
+   git clone https://github.com/Mustazir/GameGlance.git  
+   git clone https://github.com/Mustazir/GameGlance-Server.git  
+   ```
+2.Install dependencies:
+   ```bash
+   npm install  
+   ```
