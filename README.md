@@ -1,5 +1,5 @@
 # GameGlance 🎮  
-[Live Website](https://gameglance-18dab.firebaseapp.com/) | [Client-Side Repository](https://github.com/Mustazir/GameGlance) | [Server-Side Repository](https://github.com/Mustazir/GameGlance-Server.git)  
+[Live Website](https://gameglance-18dab.firebaseapp.com/) | [Client-Side Repository](https://github.com/Mustazir/GameGlance-Client.git) | [Server-Side Repository](https://github.com/Mustazir/GameGlance-Server.git)  
 
 ## Introduction  
 **GameGlance** is a user-friendly game review platform where users can explore, share, and manage game reviews. Designed with simplicity and functionality in mind, it offers a "chill" experience for gaming enthusiasts to interact and share their opinions.  
@@ -81,4 +81,9 @@ These are stored securely in `.env` files and not exposed in the repositories.
 2.Install dependencies:
    ```bash
    npm install  
+   ```
+3.Add .env files with your credentials for Firebase and MongoDB.
+4.Run the application
+   ```bash
+   npm run dev
    ```
