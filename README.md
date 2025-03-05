@@ -1,10 +1,10 @@
-# **PlayLog**  
+# **GameGlance**  
 **[Live Website URL](https://gameglance-18dab.firebaseapp.com/)**  
 
 ---
 
 ## **About**  
-**PlayLog** is the ultimate platform for gamers to share, explore, and review games. Whether you’re looking for trending reviews or a personalized watchlist, PlayLog offers everything in a stylish black-and-red theme.
+**GameGlance** is the ultimate platform for gamers to share, explore, and review games. Whether you’re looking for trending reviews or a personalized watchlist, GameGlance offers everything in a stylish black-and-red theme.
 
 ---
 

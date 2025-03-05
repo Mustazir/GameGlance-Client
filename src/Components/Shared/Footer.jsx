@@ -5,7 +5,7 @@ const Footer = () => {
             <div className="container mx-auto flex flex-col md:flex-row justify-between items-center px-5">
                 
                 <div className="mb-6 md:mb-0 text-center md:text-left">
-                    <h2 className="text-2xl font-bold text-primary font-title">PlayLog</h2>
+                    <h2 className="text-2xl font-bold text-primary font-title">GameGlance</h2>
                     <p className="text-gray-400 text-sm">The ultimate game review platform</p>
                 </div>
 

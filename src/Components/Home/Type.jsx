@@ -6,7 +6,7 @@ const Type = () => {
     <section className="bg-zinc-900 text-white py-20">
       <div className="max-w-7xl mx-auto text-center">
         <h1 className="text-4xl font-bold mb-6">
-          Welcome to <span className="text-primary font-title">PlayLog</span>
+          Welcome to <span className="text-primary font-title">GameGlance</span>
         </h1>
         <p className="text-lg mb-10">
           Discover, Review, and Share Your Favorite Games with the World!
